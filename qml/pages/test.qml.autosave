@@ -1,0 +1,51 @@
+import QtQuick 2.10
+import QtQuick.Window 2.10
+import QtQuick.Controls 2.2
+import Athenum 1.0
+//import IdeasLib 1.0
+import '../components'
+
+
+Item {
+    id: pageTest
+
+    property string athName: "Ideas lib test"
+
+    property int requestedWidth: width
+    property int requestedHeight: 1000
+    anchors.fill: parent
+
+    signal requestToOpenPage(var pageName)
+
+    Button{
+        x: 10
+        y: 10
+        text: "Request url"
+        onClicked:{
+            //pageTest.requestToOpenPage("/pages/test.qml")
+            pageTest.parent.parent.parent.parent.requestToOpenUrl("/pages/test.qml")
+        }
+    }
+
+    Button{
+        x: 300
+        y: 10
+        text: "Parent page"
+        onClicked:{
+            //THIS SHIT WORKS
+            pageTest.parent.parent.parent.parent.requestToOpenPage("Ideas lib test")
+            //I want to make it be able open both by name and url
+            //SO we can dont even know real url but be able to request its opening
+        }
+    }
+
+    Button{
+        x: 600
+        y: 10
+        text: "Test s"
+        onClicked:{
+            var hash = athenumInfo.md5fromFile("C:/ath/athenum/src/ath.py")
+            console.log("Got hash ",hash)
+        }
+    }
+}

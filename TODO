@@ -1,0 +1,90 @@
+
+1. intervals/scales
+    a. 4 lines - interval, scale, sequence, group
+    b. sonification each element, at least from same frequence and cycled in one octave
+
+2. full reptend
+    b. reversed
+        I. 10 & 12 for P=7
+        II. 7 & 13 for NS=10
+    c. autosum *2,*3 to intervals page
+
+3. circle page
+    a. import / export - single circle, multy circles at one position, many multy circles labled
+    b. sonification of single circle
+
+4. ath page
+    a. edit
+
+5. statistics
+    количество строк кода в модулях и на страницах
+    зависимость модулей и страниц итд
+
+
+Ath-children:
+
+    1) Number
+        a) Выбор разными методами
+        б) Написание текстом (num2words)
+        в) Озвучивание текста
+        г) Отображение в виде множества точек
+
+    2) Операции: сложение и вычитание
+        С отрисовкой результата
+
+    3) Секундомер: с кругами и сохранением результатов.
+
+    4) Календарь с добавлением событий
+        *дневник
+        *'mini-aim'
+
+    5) Фигуры и цвета
+
+    6) Энциклопедические описания - парсинг видов животных из википедии для создания классификации по которой можно перемещаться
+
+    7) Парсинг множества найденных рецептов, для создания классификации
+
+=========================================================================================
+Изоляция модулей и старниц из общего репозитория - возможность установки модуля из github.
+перенос базовых модулей в отдельные репозитории
+-----
+c-musics (http://shallowsky.com/blog/programming/python-play-chords.html)
+-----
+Скрипт для костей \ карт
+-------------
+Биологическая обратная связь
+---------------
+Распознавание речи
+Классификатор семантических мелодий
+Семантический редуктор
+===================================
+!!!) work on cyclic prime research
+=====================================
+1) Latex page, for generating on the go
+2) period of 6, large classification 0 just a mandatory toy
+3) Cycle number - visualiation of shift for big numbers
+4) oeis component
+========================================================================
+
+    *Walking into pows, like 49, 343, sums will change - they may be displayed
+    There may be found a 'door' to another pow level,
+    It happens when we got the geo progression, and its first can be divided by 7,
+    For example 1/7=14*2 and 1/49=2*2 etc, there may be found doors to some level
+
+//Rythm and polyrythm baed on binnary numbers at least animation
+
+//6 period classification! and (n period for any basis)
+
+============================+++
+
+// !!! Numerological reduction
+
+Cycle Number:
+//There may be formulas to generate cyclic numbers from the geo progression, so they are ever rising,
+//And there is a place for 7*5
+//Midi Theorem auto check level + num reduction (abs lvl)
+
+Polyrythm example is circles with different amount of point on it, for example 1/7 in 10, and in 4 basis
+
+==========================================
+*Athenum printer

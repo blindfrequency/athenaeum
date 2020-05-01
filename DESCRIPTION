@@ -1,0 +1,28 @@
+#=====================================================================================================================#
+
+Athenum was developed to display research in full reptend primes numbers.
+
+It was created like a browser, that browses QML files. It and can load and wrap Python modules to use them in QML.
+
+The idea is to make articles, with computable elements.
+
+Athenum has got built-in task manager & code editor.
+
+Built-in modules:
+
+    *Full reptend prime: visualization & sonification of my research
+
+    *Sample pages: set of examples & pages I've done for my son
+
+    *Task manager
+
+    *Encyclopedia records (starting from recipes & life forms)
+
+Athenum is delivered under the terms of LGPLv3 read the file LICENSE.LGPLv3 to know more about the license.
+
+Powered by Qt. Uses QtPy - so can switch: PySide2 or PyQt5.
+Desktop build uses PySide2, mobile - PyQt5.
+
+#=====================================================================================================================#
+
+
